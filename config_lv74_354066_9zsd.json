@@ -1,0 +1,53 @@
+54,46,58,8,7,86,77,62,85,60,82,4,51,8,13,35,18,48,18,0,82,42,81,70,4,73,89,62,86,43,44,28,90,44,96,17,2,62,38,67,84,81,64,90,88,54,89,30,61,31,30,63,79,64,5,62,35,45,75,52,50 / 9
+const sum = (a, b) => a + b;
+banana * apple
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+true - 26
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+true - 92
+const randomNumber = getRandomNumber();
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+false - 65,10,82,37,12,76,3,0,9,25,77,78,49,6,84,26,50,59,52,91,17,33,61,29,63,23
+const isPalindrome = str => str === str.split("").reverse().join("");
+orange
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+banana
+
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+false - 88
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange - false
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+// This is a comment
+
+2,74,89,85,50,35,31,10,97,20,22,37,67,96,8,95,72,93,61,63,56,22,61,33,24,45,23,70,95,10,40,27,26,12,89,32,27,4,31,78,62,90,15,83,51,84,11,29,85,52,73,60,77,59,59,74,38,71,35,72,78 - false
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+kiwi * 79
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+function addNumbers(a, b) { return a + b; }
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const isPalindrome = str => str === str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+47 - true
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const multiply = (a, b) => a * b;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+orange - 64
+const isEven = num => num % 2 === 0;
