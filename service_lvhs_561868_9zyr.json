@@ -1,0 +1,81 @@
+false / 91,19,5,46,16,86,79,45,61,94,90,94,6,50,26,33,94,76,34,4,80,57,40,42,55,34,39,40,83,73,57,64,96,63,58,64,93,29,13,63,84,74,21,15,19,10,78,87,41,95,57,56,92,85,4,21,21,51,80,41,87,37,79,25,92,68,1,9,95,34,81,24,69,91,89,41,18,59,60,99,63,25,67,59,80,65,44,10,7
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+78 + kiwi
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const reverseString = str => str.split("").reverse().join("");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+55 / true
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+console.log(getRandomString());
+
+orange
+
+const randomNumber = getRandomNumber();
+const removeDuplicates = array => Array.from(new Set(array));
+7,19,94,48,74,8,49,36,5,78,96,71,41,53,77,73,98,72,47,20,40,33,15,17,94,97,30,97,83,19,15,46,85,2,47,67,83,58 - false
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+// This is a comment
+62 - 42,15,75,44,34,35,31,78,18,23,83,25,53,93,68,99,54,23,93,43,56,13,19,65,51,33,11,91,57,10,39,66,38,58,89,63,13,83,48,55,65,32,46,86,22,41,5,70,53,36,19,96,92,36,85,38,89,4,13,29,82,73,91,88,66,72,52,64,32,22,19,57,66,4,37,64,73,68,7,66,97,23,48,37,17,64,52
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+orange
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+91 - 32,82,93,6,64,25,20,50,73,65,28,12,68,45,68,66,35,71,30,9,70,77,93,64,30,79,7,97,49,26,59,18,60,85,99,77,78,63,84,29,89,11,54,76,80
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+banana
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const isEven = num => num % 2 === 0;
+
+false * 71
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+56,72,72,76,50,96,96,47,71,36,54,75,90,58,74,48,57,58,98,32,46,82,49,90,44,99,5,17,13,22,43,19,89,37,38,54,75,51,76,35,55,21,68,23,51,83,28,88,2,73,66,79,95,80,24,20,41,61,87,50,30,2,21,20,72,81,65,11,87,17,23,9,63,85,12,40,61,34,83,17,17,93,90,78,54 - false
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+grape / false
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const multiply = (a, b) => a * b;
+false / 49,25,31,76,31,9,76,54,63,82,15,96,10,77,74,82,0,38,40,60,76,91,83,17,39,90,99,26,95,64,40,70,25,13,11,75,50,90,5,70,50,29,53
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana + 39,11,57,15,11,23,77,34,72,42,71,62,27,86,91,71,8,93,94,63,90,31,46,60,97,67,37,84,56,41,80,83,28,64,33,86,64
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+orange - 92
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+53 - 80,68,42,50,95,82,96,13,56,16,40,31,26,52,16,11,93,56,19,22,15,77,74,40,32,79,40,63,36,20,57,59,7,9,36,34,64,83,10,86,9,76,30,16,44,65,88,25,34,94,7,19,90,27,70,5,87,66,72,98,14,34,43,47,22,60,24,36,21,8,38,49,54,59,57,40,34,11
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+kiwi + grape
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+class MyClass { constructor() { this.property = getRandomString(); } }
+75 - 49,26,59,3,89,37,31,73,89,0,84,65,61,93,28,40,39,50,40,15,56,86,31,54,30,46,22,18,14,10,85,49,11,70,64,96,99,4,44,91,33,3,45,27,84,89,65,64,74,46,14,64,1,98,4,23,16,45,2,13,95,61,33,78,55,42
+
+const squareRoot = num => Math.sqrt(num);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+true * banana
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
